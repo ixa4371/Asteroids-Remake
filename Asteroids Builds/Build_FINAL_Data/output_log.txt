@@ -1,0 +1,53 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.035 seconds
+Platform assembly: C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Israel\Desktop\Anthony_Asteroids\Builds\Build_FINAL_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.464895 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.257791 ms
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 236.
+Total: 0.566783 ms (FindLiveObjects: 0.015103 ms CreateObjectMapping: 0.008191 ms MarkObjects: 0.049663 ms  DeleteObjects: 0.493567 ms)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[UnityEngine.GameObject].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at BulletManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+ArgumentOutOfRangeException: Argument is out of range.
+Parameter name: index
+  at System.Collections.Generic.List`1[UnityEngine.GameObject].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+  at BulletManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.267007 ms
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 226.
+Total: 4.133630 ms (FindLiveObjects: 0.018943 ms CreateObjectMapping: 0.019711 ms MarkObjects: 0.136959 ms  DeleteObjects: 3.957502 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2e78 -> priority: 1 
+  Thread -> id: bb0 -> priority: 1 
